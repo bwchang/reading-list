@@ -1,6 +1,8 @@
-$def with (month, weekday, today)
+$def with (month, weekday, today, articles)
 
-$if month and weekday and today:
-	<h1>$weekday, $month $today.day $today.year</h1>
-$else:
-	Hi Betty
+<h1>$weekday, $month $today.day $today.year</h1>
+<ul>
+	<li><a href="/ringer">The Ringer</a></li>
+</ul>
+$for article in articles:
+	<p>$article.title</p>
