@@ -4,5 +4,6 @@ $def with (month, weekday, today, articles)
 <ul>
 	<li><a href="/ringer">The Ringer</a></li>
 </ul>
+
 $for article in articles:
-	<p>$article.title</p>
+	<p><a href="$article.link" target="_blank">$article.title</a></p>

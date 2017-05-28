@@ -20,7 +20,6 @@ articles = []
 
 class index:
 	def GET(self):
-		print articles
 		today = datetime.date.today()
 		month = calendar.month_name[today.month].capitalize()
 		weekday = calendar.day_name[today.weekday()].capitalize()
