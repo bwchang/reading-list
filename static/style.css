@@ -1,0 +1,67 @@
+body {
+	
+}
+
+.container {
+	width: 90%;
+	margin-left: 5%;
+}
+
+.date-container {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.sources-container {
+	float: left;
+	margin: 20px 10px;
+	padding: 10px;
+	height: 80%;
+}
+
+.articles-container {
+	float: right;
+	margin: 20px 10px;
+	padding: 10px;
+	height: 80%;
+	width: 60%;
+	border-style: solid;
+}
+
+.title {
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.article {
+	position: relative;
+	margin: 5px 0px;
+}
+
+.article-link {
+	display: inline-block;
+	width: 80%;
+}
+
+.article-delete {
+	display: inline-block;
+	height: 100%;
+	position: absolute;
+	right: 0;
+}
+
+.article-delete img {
+	height: 100%;
+}
+
+.article-delete img:hover {
+	cursor: pointer;
+}

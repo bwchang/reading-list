@@ -1,8 +1,10 @@
 $def with (scraper, action)
 
+<h3>$scraper.name</h3>
 <form action='$action' method='POST'>
 	$for i in range(len(scraper.get_titles())):
 		<input type='checkbox' name='$i' value='$i'>$scraper.get_title(i)
 		<br/>
+	<a href="/">Back</a>
 	<input type='submit'>
 </form>
